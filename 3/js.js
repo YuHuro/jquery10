@@ -1,6 +1,6 @@
-const number = document.querySelector('#input')
-const btn = document.querySelector('#button')
-const block = document.querySelector('#block')
+const number = $('#number')
+const btn = $('#button')
+const block = $('#block')
 
 $(btn).on('click', function(){
     if(isNaN(number.value) || input.value === ''){
