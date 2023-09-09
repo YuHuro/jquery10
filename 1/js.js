@@ -1,7 +1,7 @@
-const numberX = document.querySelector('#numberX')
-const numberY = document.querySelector('#numberY')
-const button = document.querySelector('#button')
-const block = document.querySelector('#block')
+const numberX = $('#numberX')
+const numberY = $('#numberY')
+const button = $('#button')
+const block = $('#block')
 
 
 $(button).on('click', function(){
